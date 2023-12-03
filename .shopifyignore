@@ -1,0 +1,10 @@
+.env
+.git/*
+.gitignore
+.prettierrc
+node_modules/
+public/
+package.json
+package-lock.json
+vite-base/
+src/
