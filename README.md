@@ -29,6 +29,7 @@ npm install --save-dev npm-run-all
 ```
 
 _NOTE:_ While creating vite (project name is non important), select Vanilla > Javascript
+
 _NOTE:_ --force package if any errrors
 
 3. Create and modify the ./vite.config.js
