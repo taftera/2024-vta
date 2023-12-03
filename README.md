@@ -192,3 +192,7 @@ npm run build:deploy
 ```
 
 NOTE: you need to have an already theme created on the store just to be pushed
+
+---
+
+Updated 20231202
