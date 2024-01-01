@@ -129,7 +129,7 @@ npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css
 10. Install scripts
 
 ```ssh
-$ npm install
+npm install
 ```
 
 11. Update Shopify Project files
