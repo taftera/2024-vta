@@ -161,10 +161,13 @@ Alpine JS example
 </div>
 ```
 
-12. Add Shopify Prettier support
+12. Add Shopify Prettier support [documentation](https://shopify.dev/docs/themes/tools/liquid-prettier-plugin)
 
 ```ssh
 npm install --save-dev prettier @shopify/prettier-plugin-liquid
+```
+```ssh
+npm run prettier -- path/to/file.liquid --write
 ```
 
 13. Optionals
