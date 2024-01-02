@@ -134,14 +134,14 @@ npm install
 
 11. Update Shopify Project files
 
-1. Update the layout/theme.liquid file (just before the </head> tag)
+-1. Update the layout/theme.liquid file (just before the </head> tag)
 
 ```liquid
 {% comment %} Tailwind CSS Configs {% endcomment %}
 {{ 'tailwind.css' | asset_url | stylesheet_tag }}
 ```
 
-2. Update the layout/theme.liquid file (just before the </body> tag)
+-2. Update the layout/theme.liquid file (just before the </body> tag)
 
 ```liquid
 {% comment %} Alpine JS {% endcomment %}
@@ -199,4 +199,4 @@ NOTE: you need to have an already theme created on the store just to be pushed
 
 ---
 
-Updated 20231202
+Last update 20240102
