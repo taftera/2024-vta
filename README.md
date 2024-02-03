@@ -173,9 +173,9 @@ npm run prettier -- path/to/file.liquid --write
 
 13. Optionals
 
-- Download .gitignore [https://github.com/taftera/2024-vta/blob/main/.gitignore](file)
-- Download .prettierrc [https://github.com/taftera/2024-vta/blob/main/.prettierrc](file)
-- Download .shopifyignore [https://github.com/taftera/2024-vta/blob/main/.shopifyignore](file)
+- Download .gitignore [file](https://github.com/taftera/2024-vta/blob/main/.gitignore)
+- Download .prettierrc [file](https://github.com/taftera/2024-vta/blob/main/.prettierrc)
+- Download .shopifyignore [file](https://github.com/taftera/2024-vta/blob/main/.shopifyignore)
 - Remove the vite vanilla files from base directory
 
 ## Shopify Dev Start
