@@ -18,6 +18,7 @@ _NOTE:_ this line of code will download latest Shopify | Dawn version
 2. Start w/ Project Basics
 
 ```sh
+nvm use 20
 npm init -y
 npm create vite
 npm install
@@ -28,8 +29,8 @@ npm install --save-dev vite-plugin-shopify
 npm install --save-dev npm-run-all
 ```
 
+_NOTE:_ $ nvm use 20 is only needed if the packages exports a possible node error.
 _NOTE:_ While creating vite (project name is non important), select Vanilla > Javascript
-
 _NOTE:_ --force package if any errrors
 
 3. Create and modify the ./vite.config.mjs
@@ -172,9 +173,9 @@ npm run prettier -- path/to/file.liquid --write
 
 13. Optionals
 
-- Download .gitignore file
-- Download .prettierrc file
-- Download .shopifyignore file
+- Download .gitignore [https://github.com/taftera/2024-vta/blob/main/.gitignore](file)
+- Download .prettierrc [https://github.com/taftera/2024-vta/blob/main/.prettierrc](file)
+- Download .shopifyignore [https://github.com/taftera/2024-vta/blob/main/.shopifyignore](file)
 - Remove the vite vanilla files from base directory
 
 ## Shopify Dev Start
@@ -195,8 +196,8 @@ npm run build:push
 npm run build:deploy
 ```
 
-NOTE: you need to have an already theme created on the store just to be pushed
+NOTE: you need to have an already theme created on the store id/theme just to be pushed
 
 ---
 
-Last update 20240102
+Last update 20240203
