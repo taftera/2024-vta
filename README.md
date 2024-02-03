@@ -81,7 +81,7 @@ module.exports = {
 ```sh
 mkdir src
 cd src
-vim tailwind.css
+touch tailwind.css
 ```
 
 6. Add the next info
