@@ -119,7 +119,7 @@ npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css
     "dev:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css --watch",
     "dev:vite": "vite",
     "build": "vite build",
-    "build:css": "npx tailwindcss -o assets/tailwind.css --minify",
+    "build:css": "npx tailwindcss build ./src/tailwind.css -o assets/tailwind.css --minify",
     "build:deploy": "run-p -sr build:css && run-p -sr build:push",
     "build:push": "shopify theme push",
     "preview": "vite preview"
