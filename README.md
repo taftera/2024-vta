@@ -1,3 +1,5 @@
+# NOTE: updating the stack to carry Vite-React
+
 # Shopify | Vite | Tailwind | Alpine - Dev Start
 
 ## Prerequisites
